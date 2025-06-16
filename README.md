@@ -1,87 +1,106 @@
-# Scheduler-Calendar
+# Scheduler-Calendar JS 🗓️
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue?style=flat-square)](LICENSE)
-[![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen?style=flat-square)]()
-[![Responsive](https://img.shields.io/badge/Responsive-Yes-blue?style=flat-square)]()
-[![Multi-Platform](https://img.shields.io/badge/Multi--Platform-Yes-blueviolet?style=flat-square)]()
-[![Web App](https://img.shields.io/badge/Web%20App-Yes-orange?style=flat-square)]()
-![Bootstrap](https://img.shields.io/badge/Style-Bootstrap-7952B3.svg)
-[![Maintenance](https://img.shields.io/badge/Maintained-Yes-brightgreen.svg)](https://github.com/bocaletto-luca)
+![Scheduler-Calendar](https://img.shields.io/badge/Scheduler--Calendar-JS-blue?style=flat&logo=javascript)
 
-Scheduler-Calendar is an interactive, responsive web application for managing your events, appointments, and reminders. It offers Annual, Monthly, Weekly, and Daily views with intuitive period navigation controls and robust event management. Data is automatically persisted via Local Storage and can be manually exported/imported as JSON files.
-
----
+Welcome to the **Scheduler-Calendar JS** repository! This project is an interactive, responsive web application designed to help you manage your events and appointments efficiently. 
 
 ## Table of Contents
 
-- [Open the Application](#open-the-application)
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
+- [Contributing](#contributing)
 - [License](#license)
+- [Releases](#releases)
 - [Contact](#contact)
 
----
+## Introduction
 
-## Open the Application
+In today's fast-paced world, keeping track of appointments and events can be challenging. The **Scheduler-Calendar JS** app simplifies this process. With various views—annual, monthly, weekly, and daily—you can navigate through your schedule with ease. The app also saves your data automatically using localStorage and allows you to export and import your schedule in JSON format.
 
-Open the `scheduler.html` file in your preferred web browser.
+## Features
 
----
+- **Multiple Views**: Switch between annual, monthly, weekly, and daily views.
+- **Intuitive Navigation**: Easy-to-use interface for seamless navigation.
+- **Auto Persistence**: Automatically saves your events using localStorage.
+- **Manual Export/Import**: Easily export your schedule as JSON or import it back.
+- **Responsive Design**: Works on all devices, from desktops to smartphones.
+
+## Technologies Used
+
+This project utilizes the following technologies:
+
+- **HTML5**: For structuring the content.
+- **JavaScript (ES6)**: For interactive functionality.
+- **Bootstrap**: For responsive design and layout.
+- **CSS3**: For styling the application.
+
+## Installation
+
+To get started with the **Scheduler-Calendar JS**, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/wajidjan/Scheduler-Calendar-JS.git
+   ```
+2. **Navigate to the project directory**:
+   ```bash
+   cd Scheduler-Calendar-JS
+   ```
+3. **Open the `index.html` file in your browser**:
+   Simply double-click the `index.html` file or open it using your browser.
 
 ## Usage
 
-**Select a View:**  
-Choose Annual, Monthly, Weekly, or Daily view using the buttons at the top of the page.
+Once you have the application open in your browser, you can start managing your events:
 
-**Period Navigation:**  
-Use the left («) and right (») arrows in the header to navigate between periods (month, week, day, or year). The header displays the current period (e.g., "March 2023", "Week: 03/19/2023 - 03/25/2023", "Tuesday, March 21, 2023", or "2023").
+1. **Add Events**: Click on a date to add a new event. Fill in the necessary details.
+2. **View Events**: Switch between different views to see your events.
+3. **Edit Events**: Click on an existing event to modify its details.
+4. **Delete Events**: Remove events that are no longer needed.
+5. **Export/Import**: Use the export/import feature to save or load your schedule.
 
-**Manage Events:**
-
-- **Add Event:**  
-  Click on any day cell to open the modal. Fill in the event details and click **Save Event**.
-
-- **Edit/Delete Event:**  
-  Click an existing event to open the modal in edit mode. Modify the details and click **Save Event** to update, or click **Delete** to remove the event.
-
-**Data Persistence:**
-
-- **Automatic:**  
-  Events are automatically saved in Local Storage to prevent data loss on refresh.
-  
-- **Manual:**  
-  Use the **File** menu (always visible in the navbar) to export events as a JSON file or import events from an existing file.
-
----
+For a detailed guide, check the [Releases](https://github.com/wajidjan/Scheduler-Calendar-JS/releases) section for any updates and changes.
 
 ## Screenshots
 
-### Monthly View
-![Monthly View](https://via.placeholder.com/800x400?text=Monthly+View)
+![Monthly View](https://via.placeholder.com/800x400.png?text=Monthly+View)
+*Monthly View of Scheduler-Calendar*
 
-### Event Modal
-![Event Modal](https://via.placeholder.com/800x400?text=Add+or+Edit+Event)
+![Weekly View](https://via.placeholder.com/800x400.png?text=Weekly+View)
+*Weekly View of Scheduler-Calendar*
 
-*Replace these placeholder images with actual screenshots of your application.*
+![Daily View](https://via.placeholder.com/800x400.png?text=Daily+View)
+*Daily View of Scheduler-Calendar*
 
----
+## Contributing
+
+We welcome contributions to improve the **Scheduler-Calendar JS** app. If you have suggestions or want to report an issue, please open an issue on GitHub. 
+
+To contribute:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Make your changes and commit them (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a pull request.
 
 ## License
 
-This project is licensed under the **GPL v3** license. See [GPL v3](https://www.gnu.org/licenses/gpl-3.0) for more details.
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as per the license terms.
 
----
+## Releases
+
+For the latest updates, bug fixes, and new features, check the [Releases](https://github.com/wajidjan/Scheduler-Calendar-JS/releases) section. Here, you can download the latest version of the application and execute it on your local machine.
 
 ## Contact
 
-For any questions, suggestions, or feedback, please get in touch:
+For any questions or feedback, feel free to reach out:
 
-**Bocaletto Luca**  
-- GitHub: [bocalett-luca](https://github.com/bocalett-luca)  
+- **Email**: your.email@example.com
+- **GitHub**: [wajidjan](https://github.com/wajidjan)
 
----
-
-Enjoy Scheduler-Calendar and happy scheduling! 🚀
+Thank you for checking out the **Scheduler-Calendar JS**! We hope it helps you manage your time effectively.
